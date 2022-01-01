@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bangers&family=Courgette&family=Luxurious+Script&family=Pushster&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  height: 100vh;
+}
+#video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  z-index: -999;
+}
+.word span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 50%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 0.2cm;
+  text-align: center;
+  color: #ffdf00;
+  font-size: 6rem;
+  font-family: "pushster", cursive;
+}
